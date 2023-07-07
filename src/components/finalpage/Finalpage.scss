@@ -1,0 +1,42 @@
+
+  .full {
+    width: 35%;
+    height: 700px;
+    max-width: 1000px;
+    min-height: 100px;
+   background-color: rgb(4, 4, 95);
+    margin: 0;
+margin-left: 570px;
+
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+    .left {
+      position: initial;
+      background-color: rgb(37, 31, 126);
+      padding: 20px;
+
+      .image,
+      .Contact,
+      .Skills,
+      .Language,
+      .Hobbies,
+      .title,
+      .Summary,
+      .Experience,
+      .Education,
+      .project {
+        margin-bottom: 30px;
+      }
+      color: white;
+    }
+
+    .right {
+      position: initial;
+
+      padding: 20px;
+      color: white;
+
+    }
+  }
+
